@@ -1,0 +1,293 @@
+{
+  "nodes": [
+    {
+      "id": "Big-1",
+      "cores": 96,
+      "memory": 128000
+    },
+    {
+      "id": "Big-2",
+      "cores": 96,
+      "memory": 128000
+    },
+    {
+      "id": "Big-3",
+      "cores": 96,
+      "memory": 128000
+    },
+    {
+      "id": "Big-4",
+      "cores": 96,
+      "memory": 128000
+    },
+    {
+      "id": "Big-5",
+      "cores": 96,
+      "memory": 128000
+    },
+        {
+      "id": "Medium-1",
+      "cores": 48,
+      "memory": 64000
+    },
+    {
+      "id": "Medium-2",
+      "cores": 48,
+      "memory": 64000
+    },
+    {
+      "id": "Medium-3",
+      "cores": 48,
+      "memory": 64000
+    },
+    {
+      "id": "Medium-4",
+      "cores": 48,
+      "memory": 64000
+    },
+    {
+      "id": "Medium-5",
+      "cores": 48,
+      "memory": 64000
+    },
+    {
+      "id": "Small-1",
+      "cores": 24,
+      "memory": 32000
+    },
+    {
+      "id": "Small-2",
+      "cores": 24,
+      "memory": 32000
+    },
+    {
+      "id": "Small-3",
+      "cores": 24,
+      "memory": 32000
+    }
+  ],
+  "links": [
+    {
+      "source": "Big-1",
+      "target": "SW1",
+      "devices": [
+        {
+          "source_device": "eth1",
+          "target_device": "eth3",
+          "rate": 10000
+        }
+      ]
+    },
+    {
+      "source": "Big-2",
+      "target": "SW1",
+      "devices": [
+        {
+          "source_device": "eth1",
+          "target_device": "eth4",
+          "rate": 10000
+        }
+      ]
+    },
+    {
+      "source": "Big-3",
+      "target": "SW5",
+      "devices": [
+        {
+          "source_device": "eth1",
+          "target_device": "eth1",
+          "rate": 5000
+        }
+      ]
+    },
+    {
+      "source": "Big-4",
+      "target": "SW5",
+      "devices": [
+        {
+          "source_device": "eth1",
+          "target_device": "eth2",
+          "rate": 5000
+        }
+      ]
+    },
+    {
+      "source": "Big-5",
+      "target": "SW7",
+      "devices": [
+        {
+          "source_device": "eth1",
+          "target_device": "eth3",
+          "rate": 5000
+        }
+      ]
+    },
+    {
+      "source": "Medium-1",
+      "target": "SW1",
+      "devices": [
+        {
+          "source_device": "eth1",
+          "target_device": "eth1",
+          "rate": 5000
+        }
+      ]
+    },
+    {
+      "source": "Medium-2",
+      "target": "SW1",
+      "devices": [
+        {
+          "source_device": "eth1",
+          "target_device": "eth2",
+          "rate": 5000
+        }
+      ]
+    },
+    {
+      "source": "Medium-3",
+      "target": "SW6",
+      "devices": [
+        {
+          "source_device": "eth1",
+          "target_device": "eth2",
+          "rate": 5000
+        }
+      ]
+    },
+    {
+      "source": "Medium-4",
+      "target": "SW8",
+      "devices": [
+        {
+          "source_device": "eth1",
+          "target_device": "eth2",
+          "rate": 5000
+        }
+      ]
+    },
+    {
+      "source": "Medium-5",
+      "target": "SW7",
+      "devices": [
+        {
+          "source_device": "eth1",
+          "target_device": "eth4",
+          "rate": 5000
+        }
+      ]
+    },
+    {
+      "source": "Small-1",
+      "target": "SW3",
+      "devices": [
+        {
+          "source_device": "eth1",
+          "target_device": "eth1",
+          "rate": 5000
+        }
+      ]
+    },
+    {
+      "source": "Small-2",
+      "target": "SW3",
+      "devices": [
+        {
+          "source_device": "eth1",
+          "target_device": "eth2",
+          "rate": 5000
+        }
+      ]
+    },
+    {
+      "source": "Small-3",
+      "target": "SW8",
+      "devices": [
+        {
+          "source_device": "eth1",
+          "target_device": "eth3",
+          "rate": 5000
+        }
+      ]
+    },
+    {
+      "source": "SW1",
+      "target": "SW2",
+      "devices": [
+        {
+          "source_device": "eth5",
+          "target_device": "eth1",
+          "rate": 10000
+        }
+      ]
+    },
+    {
+      "source": "SW2",
+      "target": "SW3",
+      "devices": [
+        {
+          "source_device": "eth2",
+          "target_device": "eth3",
+          "rate": 5000
+        }
+      ]
+    },
+    {
+      "source": "SW2",
+      "target": "SW4",
+      "devices": [
+        {
+          "source_device": "eth3",
+          "target_device": "eth1",
+          "rate": 10000
+        }
+      ]
+    },
+    {
+      "source": "SW4",
+      "target": "SW5",
+      "devices": [
+        {
+          "source_device": "eth2",
+          "target_device": "eth3",
+          "rate": 5000
+        }
+      ]
+    },
+    {
+      "source": "SW4",
+      "target": "SW7",
+      "devices": [
+        {
+          "source_device": "eth3",
+          "target_device": "eth1",
+          "rate": 5000
+        }
+      ]
+    },
+    {
+      "source": "SW4",
+      "target": "SW6",
+      "devices": [
+        {
+          "source_device": "eth4",
+          "target_device": "eth1",
+          "rate": 2000
+        }
+      ]
+    },
+    {
+      "source": "SW7",
+      "target": "SW8",
+      "devices": [
+        {
+          "source_device": "eth2",
+          "target_device": "eth1",
+          "rate": 5000
+        }
+      ]
+    }
+
+
+  ]
+}

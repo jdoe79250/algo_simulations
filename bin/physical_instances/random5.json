@@ -1,0 +1,178 @@
+{
+  "nodes": [
+    {
+      "id": "Big-1",
+      "cores": 96,
+      "memory": 128000
+    },
+    {
+      "id": "Big-2",
+      "cores": 96,
+      "memory": 128000
+    },
+    {
+      "id": "Big-3",
+      "cores": 96,
+      "memory": 128000
+    },
+    {
+      "id": "Medium-1",
+      "cores": 48,
+      "memory": 64000
+    },
+    {
+      "id": "Medium-2",
+      "cores": 48,
+      "memory": 64000
+    },
+    {
+      "id": "Small-1",
+      "cores": 24,
+      "memory": 32000
+    },
+    {
+      "id": "Small-2",
+      "cores": 24,
+      "memory": 32000
+    },
+    {
+      "id": "Small-3",
+      "cores": 24,
+      "memory": 32000
+    }
+  ],
+  "links": [
+    {
+      "source": "SW1",
+      "target": "SW2",
+      "devices": [
+        {
+          "source_device": "eth0",
+          "target_device": "eth0",
+          "rate": 10000
+        }
+      ]
+    },
+    {
+      "source": "SW1",
+      "target": "SW3",
+      "devices": [
+        {
+          "source_device": "eth1",
+          "target_device": "eth0",
+          "rate": 10000
+        }
+      ]
+    },
+    {
+      "source": "SW1",
+      "target": "SW4",
+      "devices": [
+        {
+          "source_device": "eth2",
+          "target_device": "eth0",
+          "rate": 10000
+        }
+      ]
+    },
+    {
+      "source": "SW1",
+      "target": "SW5",
+      "devices": [
+        {
+          "source_device": "eth3",
+          "target_device": "eth0",
+          "rate": 10000
+        }
+      ]
+    },
+    {
+      "source": "SW2",
+      "target": "Big-1",
+      "devices": [
+        {
+          "source_device": "eth1",
+          "target_device": "eth0",
+          "rate": 10000
+        }
+      ]
+    },
+    {
+      "source": "SW2",
+      "target": "Small-1",
+      "devices": [
+        {
+          "source_device": "eth2",
+          "target_device": "eth0",
+          "rate": 10000
+        }
+      ]
+    },
+    {
+      "source": "SW3",
+      "target": "Big-2",
+      "devices": [
+        {
+          "source_device": "eth1",
+          "target_device": "eth0",
+          "rate": 10000
+        }
+      ]
+    },
+    {
+      "source": "SW3",
+      "target": "Medium-1",
+      "devices": [
+        {
+          "source_device": "eth2",
+          "target_device": "eth0",
+          "rate": 10000
+        }
+      ]
+    },
+    {
+      "source": "SW4",
+      "target": "Small-2",
+      "devices": [
+        {
+          "source_device": "eth1",
+          "target_device": "eth0",
+          "rate": 10000
+        }
+      ]
+    },
+    {
+      "source": "SW4",
+      "target": "Big-3",
+      "devices": [
+        {
+          "source_device": "eth2",
+          "target_device": "eth0",
+          "rate": 10000
+        }
+      ]
+    },
+    {
+      "source": "SW5",
+      "target": "Medium-2",
+      "devices": [
+        {
+          "source_device": "eth1",
+          "target_device": "eth0",
+          "rate": 10000
+        }
+      ]
+    },
+    {
+      "source": "SW5",
+      "target": "Small-3",
+      "devices": [
+        {
+          "source_device": "eth2",
+          "target_device": "eth0",
+          "rate": 10000
+        }
+      ]
+    }
+  ]
+}

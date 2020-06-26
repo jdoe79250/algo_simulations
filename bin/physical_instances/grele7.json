@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "grele-1",
+      "cores": 48,
+      "memory": 131072.0
+    },
+    {
+      "id": "grele-2",
+      "cores": 48,
+      "memory": 131072.0
+    },
+    {
+      "id": "grele-3",
+      "cores": 48,
+      "memory": 131072.0
+    },
+    {
+      "id": "grele-4",
+      "cores": 48,
+      "memory": 131072.0
+    },
+    {
+      "id": "grele-5",
+      "cores": 48,
+      "memory": 131072.0
+    },
+    {
+      "id": "grele-6",
+      "cores": 48,
+      "memory": 131072.0
+    },
+    {
+      "id": "grele-7",
+      "cores": 48,
+      "memory": 131072.0
+    }
+  ],
+  "links": [
+    {
+      "source": "grele-1",
+      "target": "gw-nancy",
+      "devices": [
+        {
+          "source_device": "eth0",
+          "target_device": "Ethernet7/1",
+          "rate": 10000.0
+        }
+      ]
+    },
+    {
+      "source": "grele-2",
+      "target": "gw-nancy",
+      "devices": [
+        {
+          "source_device": "eth0",
+          "target_device": "Ethernet7/2",
+          "rate": 10000.0
+        }
+      ]
+    },
+    {
+      "source": "grele-3",
+      "target": "gw-nancy",
+      "devices": [
+        {
+          "source_device": "eth0",
+          "target_device": "Ethernet7/3",
+          "rate": 10000.0
+        }
+      ]
+    },
+    {
+      "source": "grele-4",
+      "target": "gw-nancy",
+      "devices": [
+        {
+          "source_device": "eth0",
+          "target_device": "Ethernet7/4",
+          "rate": 10000.0
+        }
+      ]
+    },
+    {
+      "source": "grele-5",
+      "target": "gw-nancy",
+      "devices": [
+        {
+          "source_device": "eth0",
+          "target_device": "Ethernet7/5",
+          "rate": 10000.0
+        }
+      ]
+    },
+    {
+      "source": "grele-6",
+      "target": "gw-nancy",
+      "devices": [
+        {
+          "source_device": "eth0",
+          "target_device": "Ethernet7/6",
+          "rate": 10000.0
+        }
+      ]
+    },
+    {
+      "source": "grele-7",
+      "target": "gw-nancy",
+      "devices": [
+        {
+          "source_device": "eth0",
+          "target_device": "Ethernet7/7",
+          "rate": 10000.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+    "links": [
+        {
+            "devices": [
+                {
+                    "rate": 1000,
+                    "source_device": "eth0",
+                    "target_device": "eth0"
+                }
+            ],
+            "source": "sagittaire-1.lyon.grid5000.fr",
+            "target": "s1"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth1",
+                    "target_device": "eth1"
+                }
+            ],
+            "source": "hercule-1.lyon.grid5000.fr",
+            "target": "s3"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth2",
+                    "target_device": "eth2"
+                }
+            ],
+            "source": "orion-1.lyon.grid5000.fr",
+            "target": "s3"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 1000,
+                    "source_device": "eth3",
+                    "target_device": "eth3"
+                }
+            ],
+            "source": "sagittaire-2.lyon.grid5000.fr",
+            "target": "s1"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth4",
+                    "target_device": "eth4"
+                }
+            ],
+            "source": "hercule-2.lyon.grid5000.fr",
+            "target": "s3"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth5",
+                    "target_device": "eth5"
+                }
+            ],
+            "source": "orion-2.lyon.grid5000.fr",
+            "target": "s3"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 1000,
+                    "source_device": "eth6",
+                    "target_device": "eth6"
+                }
+            ],
+            "source": "sagittaire-3.lyon.grid5000.fr",
+            "target": "s1"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth7",
+                    "target_device": "eth7"
+                }
+            ],
+            "source": "hercule-3.lyon.grid5000.fr",
+            "target": "s3"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth8",
+                    "target_device": "eth8"
+                }
+            ],
+            "source": "orion-3.lyon.grid5000.fr",
+            "target": "s3"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 1000,
+                    "source_device": "eth9",
+                    "target_device": "eth9"
+                }
+            ],
+            "source": "sagittaire-4.lyon.grid5000.fr",
+            "target": "s1"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth10",
+                    "target_device": "eth10"
+                }
+            ],
+            "source": "hercule-4.lyon.grid5000.fr",
+            "target": "s3"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth11",
+                    "target_device": "eth11"
+                }
+            ],
+            "source": "orion-4.lyon.grid5000.fr",
+            "target": "s3"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 1000,
+                    "source_device": "eth12",
+                    "target_device": "eth12"
+                }
+            ],
+            "source": "sagittaire-5.lyon.grid5000.fr",
+            "target": "s1"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth13",
+                    "target_device": "eth13"
+                }
+            ],
+            "source": "nova-1.lyon.grid5000.fr",
+            "target": "s3"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth14",
+                    "target_device": "eth14"
+                }
+            ],
+            "source": "nova-2.lyon.grid5000.fr",
+            "target": "s3"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth16",
+                    "target_device": "eth16"
+                }
+            ],
+            "source": "s1",
+            "target": "s2"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth17",
+                    "target_device": "eth17"
+                }
+            ],
+            "source": "s2",
+            "target": "s3"
+        }
+    ],
+    "nodes": [
+        {
+            "cores": 2,
+            "id": "sagittaire-1.lyon.grid5000.fr",
+            "memory": 2000
+        },
+        {
+            "cores": 24,
+            "id": "hercule-1.lyon.grid5000.fr",
+            "memory": 32000
+        },
+        {
+            "cores": 24,
+            "id": "orion-1.lyon.grid5000.fr",
+            "memory": 32000
+        },
+        {
+            "cores": 2,
+            "id": "sagittaire-2.lyon.grid5000.fr",
+            "memory": 2000
+        },
+        {
+            "cores": 24,
+            "id": "hercule-2.lyon.grid5000.fr",
+            "memory": 32000
+        },
+        {
+            "cores": 24,
+            "id": "orion-2.lyon.grid5000.fr",
+            "memory": 32000
+        },
+        {
+            "cores": 2,
+            "id": "sagittaire-3.lyon.grid5000.fr",
+            "memory": 2000
+        },
+        {
+            "cores": 24,
+            "id": "hercule-3.lyon.grid5000.fr",
+            "memory": 32000
+        },
+        {
+            "cores": 24,
+            "id": "orion-3.lyon.grid5000.fr",
+            "memory": 32000
+        },
+        {
+            "cores": 2,
+            "id": "sagittaire-4.lyon.grid5000.fr",
+            "memory": 2000
+        },
+        {
+            "cores": 24,
+            "id": "hercule-4.lyon.grid5000.fr",
+            "memory": 32000
+        },
+        {
+            "cores": 24,
+            "id": "orion-4.lyon.grid5000.fr",
+            "memory": 32000
+        },
+        {
+            "cores": 2,
+            "id": "sagittaire-5.lyon.grid5000.fr",
+            "memory": 2000
+        },
+        {
+            "cores": 32,
+            "id": "nova-1.lyon.grid5000.fr",
+            "memory": 64000
+        },
+        {
+            "cores": 32,
+            "id": "nova-2.lyon.grid5000.fr",
+            "memory": 64000
+        }
+    ]
+}

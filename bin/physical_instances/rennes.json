@@ -1,0 +1,439 @@
+{
+    "links": [
+        {
+            "devices": [
+                {
+                    "rate": 1000,
+                    "source_device": "eth0",
+                    "target_device": "eth0"
+                }
+            ],
+            "source": "parapide-1.rennes.grid5000.fr",
+            "target": "s1"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 1000,
+                    "source_device": "eth1",
+                    "target_device": "eth1"
+                }
+            ],
+            "source": "parapide-10.rennes.grid5000.fr",
+            "target": "s1"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 1000,
+                    "source_device": "eth2",
+                    "target_device": "eth2"
+                }
+            ],
+            "source": "parapluie-1.rennes.grid5000.fr",
+            "target": "s1"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 1000,
+                    "source_device": "eth3",
+                    "target_device": "eth3"
+                }
+            ],
+            "source": "parapluie-2.rennes.grid5000.fr",
+            "target": "s1"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 1000,
+                    "source_device": "eth4",
+                    "target_device": "eth4"
+                }
+            ],
+            "source": "parapluie-9.rennes.grid5000.fr",
+            "target": "s1"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 1000,
+                    "source_device": "eth5",
+                    "target_device": "eth5"
+                }
+            ],
+            "source": "parapluie-11.rennes.grid5000.fr",
+            "target": "s1"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 1000,
+                    "source_device": "eth6",
+                    "target_device": "eth6"
+                }
+            ],
+            "source": "parapluie-12.rennes.grid5000.fr",
+            "target": "s1"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 1000,
+                    "source_device": "eth7",
+                    "target_device": "eth7"
+                }
+            ],
+            "source": "parapluie-20.rennes.grid5000.fr",
+            "target": "s1"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 1000,
+                    "source_device": "eth8",
+                    "target_device": "eth8"
+                }
+            ],
+            "source": "parapluie-21.rennes.grid5000.fr",
+            "target": "s1"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 1000,
+                    "source_device": "eth9",
+                    "target_device": "eth9"
+                }
+            ],
+            "source": "parapluie-22.rennes.grid5000.fr",
+            "target": "s1"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth10",
+                    "target_device": "eth10"
+                }
+            ],
+            "source": "parasilo-1.rennes.grid5000.fr",
+            "target": "s2"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth11",
+                    "target_device": "eth11"
+                }
+            ],
+            "source": "parasilo-2.rennes.grid5000.fr",
+            "target": "s2"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth12",
+                    "target_device": "eth12"
+                }
+            ],
+            "source": "parasilo-3.rennes.grid5000.fr",
+            "target": "s2"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth13",
+                    "target_device": "eth13"
+                }
+            ],
+            "source": "parasilo-4.rennes.grid5000.fr",
+            "target": "s2"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth14",
+                    "target_device": "eth14"
+                }
+            ],
+            "source": "parasilo-5.rennes.grid5000.fr",
+            "target": "s2"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth15",
+                    "target_device": "eth15"
+                }
+            ],
+            "source": "paravance-1.rennes.grid5000.fr",
+            "target": "s3"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth16",
+                    "target_device": "eth16"
+                }
+            ],
+            "source": "paravance-2.rennes.grid5000.fr",
+            "target": "s3"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth17",
+                    "target_device": "eth17"
+                }
+            ],
+            "source": "paravance-3.rennes.grid5000.fr",
+            "target": "s3"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth18",
+                    "target_device": "eth18"
+                }
+            ],
+            "source": "paravance-4.rennes.grid5000.fr",
+            "target": "s3"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth19",
+                    "target_device": "eth19"
+                }
+            ],
+            "source": "paravance-5.rennes.grid5000.fr",
+            "target": "s3"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth20",
+                    "target_device": "eth20"
+                }
+            ],
+            "source": "paravance-41.rennes.grid5000.fr",
+            "target": "s4"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth21",
+                    "target_device": "eth21"
+                }
+            ],
+            "source": "paravance-42.rennes.grid5000.fr",
+            "target": "s4"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth22",
+                    "target_device": "eth22"
+                }
+            ],
+            "source": "paravance-43.rennes.grid5000.fr",
+            "target": "s4"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth23",
+                    "target_device": "eth23"
+                }
+            ],
+            "source": "paravance-44.rennes.grid5000.fr",
+            "target": "s4"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth24",
+                    "target_device": "eth24"
+                }
+            ],
+            "source": "paravance-45.rennes.grid5000.fr",
+            "target": "s4"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth25",
+                    "target_device": "eth25"
+                }
+            ],
+            "source": "s1",
+            "target": "s2"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 40000,
+                    "source_device": "eth26",
+                    "target_device": "eth26"
+                }
+            ],
+            "source": "s2",
+            "target": "s3"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 40000,
+                    "source_device": "eth27",
+                    "target_device": "eth27"
+                }
+            ],
+            "source": "s2",
+            "target": "s4"
+        }
+    ],
+    "nodes": [
+        {
+            "cores": 16,
+            "id": "parapide-1.rennes.grid5000.fr",
+            "memory": 24000
+        },
+        {
+            "cores": 16,
+            "id": "parapide-10.rennes.grid5000.fr",
+            "memory": 24000
+        },
+        {
+            "cores": 24,
+            "id": "parapluie-1.rennes.grid5000.fr",
+            "memory": 48000
+        },
+        {
+            "cores": 24,
+            "id": "parapluie-2.rennes.grid5000.fr",
+            "memory": 48000
+        },
+        {
+            "cores": 24,
+            "id": "parapluie-9.rennes.grid5000.fr",
+            "memory": 48000
+        },
+        {
+            "cores": 24,
+            "id": "parapluie-11.rennes.grid5000.fr",
+            "memory": 48000
+        },
+        {
+            "cores": 24,
+            "id": "parapluie-12.rennes.grid5000.fr",
+            "memory": 48000
+        },
+        {
+            "cores": 24,
+            "id": "parapluie-20.rennes.grid5000.fr",
+            "memory": 48000
+        },
+        {
+            "cores": 24,
+            "id": "parapluie-21.rennes.grid5000.fr",
+            "memory": 48000
+        },
+        {
+            "cores": 24,
+            "id": "parapluie-22.rennes.grid5000.fr",
+            "memory": 48000
+        },
+        {
+            "cores": 32,
+            "id": "parasilo-1.rennes.grid5000.fr",
+            "memory": 128000
+        },
+        {
+            "cores": 32,
+            "id": "parasilo-2.rennes.grid5000.fr",
+            "memory": 128000
+        },
+        {
+            "cores": 32,
+            "id": "parasilo-3.rennes.grid5000.fr",
+            "memory": 128000
+        },
+        {
+            "cores": 32,
+            "id": "parasilo-4.rennes.grid5000.fr",
+            "memory": 128000
+        },
+        {
+            "cores": 32,
+            "id": "parasilo-5.rennes.grid5000.fr",
+            "memory": 128000
+        },
+        {
+            "cores": 32,
+            "id": "paravance-1.rennes.grid5000.fr",
+            "memory": 128000
+        },
+        {
+            "cores": 32,
+            "id": "paravance-2.rennes.grid5000.fr",
+            "memory": 128000
+        },
+        {
+            "cores": 32,
+            "id": "paravance-3.rennes.grid5000.fr",
+            "memory": 128000
+        },
+        {
+            "cores": 32,
+            "id": "paravance-4.rennes.grid5000.fr",
+            "memory": 128000
+        },
+        {
+            "cores": 32,
+            "id": "paravance-5.rennes.grid5000.fr",
+            "memory": 128000
+        },
+        {
+            "cores": 32,
+            "id": "paravance-41.rennes.grid5000.fr",
+            "memory": 128000
+        },
+        {
+            "cores": 32,
+            "id": "paravance-42.rennes.grid5000.fr",
+            "memory": 128000
+        },
+        {
+            "cores": 32,
+            "id": "paravance-43.rennes.grid5000.fr",
+            "memory": 128000
+        },
+        {
+            "cores": 32,
+            "id": "paravance-44.rennes.grid5000.fr",
+            "memory": 128000
+        },
+        {
+            "cores": 32,
+            "id": "paravance-45.rennes.grid5000.fr",
+            "memory": 128000
+        }
+    ]
+}

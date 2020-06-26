@@ -1,0 +1,326 @@
+{
+    "links": [
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth0",
+                    "target_device": "Ethernet1"
+                }
+            ],
+            "source": "grisou-11.nancy.grid5000.fr",
+            "target": "switch"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth0",
+                    "target_device": "Ethernet2"
+                }
+            ],
+            "source": "grisou-12.nancy.grid5000.fr",
+            "target": "switch"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth0",
+                    "target_device": "Ethernet3"
+                }
+            ],
+            "source": "grisou-13.nancy.grid5000.fr",
+            "target": "switch"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth0",
+                    "target_device": "Ethernet4"
+                }
+            ],
+            "source": "grisou-14.nancy.grid5000.fr",
+            "target": "switch"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth0",
+                    "target_device": "Ethernet5"
+                }
+            ],
+            "source": "grisou-15.nancy.grid5000.fr",
+            "target": "switch"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth0",
+                    "target_device": "Ethernet6"
+                }
+            ],
+            "source": "grisou-16.nancy.grid5000.fr",
+            "target": "switch"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth0",
+                    "target_device": "Ethernet7"
+                }
+            ],
+            "source": "grisou-17.nancy.grid5000.fr",
+            "target": "switch"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth0",
+                    "target_device": "Ethernet8"
+                }
+            ],
+            "source": "grisou-18.nancy.grid5000.fr",
+            "target": "switch"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth0",
+                    "target_device": "Ethernet9"
+                }
+            ],
+            "source": "grisou-19.nancy.grid5000.fr",
+            "target": "switch"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth0",
+                    "target_device": "Ethernet10"
+                }
+            ],
+            "source": "grisou-20.nancy.grid5000.fr",
+            "target": "switch"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth0",
+                    "target_device": "Ethernet11"
+                }
+            ],
+            "source": "grisou-21.nancy.grid5000.fr",
+            "target": "switch"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth0",
+                    "target_device": "Ethernet12"
+                }
+            ],
+            "source": "grisou-22.nancy.grid5000.fr",
+            "target": "switch"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth0",
+                    "target_device": "Ethernet13"
+                }
+            ],
+            "source": "grisou-23.nancy.grid5000.fr",
+            "target": "switch"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth0",
+                    "target_device": "Ethernet14"
+                }
+            ],
+            "source": "grisou-24.nancy.grid5000.fr",
+            "target": "switch"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth0",
+                    "target_device": "Ethernet15"
+                }
+            ],
+            "source": "grisou-25.nancy.grid5000.fr",
+            "target": "switch"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth0",
+                    "target_device": "Ethernet16"
+                }
+            ],
+            "source": "grisou-26.nancy.grid5000.fr",
+            "target": "switch"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth0",
+                    "target_device": "Ethernet17"
+                }
+            ],
+            "source": "grisou-27.nancy.grid5000.fr",
+            "target": "switch"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth0",
+                    "target_device": "Ethernet18"
+                }
+            ],
+            "source": "grisou-28.nancy.grid5000.fr",
+            "target": "switch"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth0",
+                    "target_device": "Ethernet19"
+                }
+            ],
+            "source": "grisou-29.nancy.grid5000.fr",
+            "target": "switch"
+        },
+        {
+            "devices": [
+                {
+                    "rate": 10000,
+                    "source_device": "eth0",
+                    "target_device": "Ethernet20"
+                }
+            ],
+            "source": "grisou-30.nancy.grid5000.fr",
+            "target": "switch"
+        }
+    ],
+    "nodes": [
+        {
+            "cores": 32,
+            "id": "grisou-11.nancy.grid5000.fr",
+            "memory": 126000
+        },
+        {
+            "cores": 32,
+            "id": "grisou-12.nancy.grid5000.fr",
+            "memory": 126000
+        },
+        {
+            "cores": 32,
+            "id": "grisou-13.nancy.grid5000.fr",
+            "memory": 126000
+        },
+        {
+            "cores": 32,
+            "id": "grisou-14.nancy.grid5000.fr",
+            "memory": 126000
+        },
+        {
+            "cores": 32,
+            "id": "grisou-15.nancy.grid5000.fr",
+            "memory": 126000
+        },
+        {
+            "cores": 32,
+            "id": "grisou-16.nancy.grid5000.fr",
+            "memory": 126000
+        },
+        {
+            "cores": 32,
+            "id": "grisou-17.nancy.grid5000.fr",
+            "memory": 126000
+        },
+        {
+            "cores": 32,
+            "id": "grisou-18.nancy.grid5000.fr",
+            "memory": 126000
+        },
+        {
+            "cores": 32,
+            "id": "grisou-19.nancy.grid5000.fr",
+            "memory": 126000
+        },
+        {
+            "cores": 32,
+            "id": "grisou-20.nancy.grid5000.fr",
+            "memory": 126000
+        },
+        {
+            "cores": 32,
+            "id": "grisou-21.nancy.grid5000.fr",
+            "memory": 126000
+        },
+        {
+            "cores": 32,
+            "id": "grisou-22.nancy.grid5000.fr",
+            "memory": 126000
+        },
+        {
+            "cores": 32,
+            "id": "grisou-23.nancy.grid5000.fr",
+            "memory": 126000
+        },
+        {
+            "cores": 32,
+            "id": "grisou-24.nancy.grid5000.fr",
+            "memory": 126000
+        },
+        {
+            "cores": 32,
+            "id": "grisou-25.nancy.grid5000.fr",
+            "memory": 126000
+        },
+        {
+            "cores": 32,
+            "id": "grisou-26.nancy.grid5000.fr",
+            "memory": 126000
+        },
+        {
+            "cores": 32,
+            "id": "grisou-27.nancy.grid5000.fr",
+            "memory": 126000
+        },
+        {
+            "cores": 32,
+            "id": "grisou-28.nancy.grid5000.fr",
+            "memory": 126000
+        },
+        {
+            "cores": 32,
+            "id": "grisou-29.nancy.grid5000.fr",
+            "memory": 126000
+        },
+        {
+            "cores": 32,
+            "id": "grisou-30.nancy.grid5000.fr",
+            "memory": 126000
+        }
+    ]
+}
